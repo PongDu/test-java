@@ -5,7 +5,6 @@
     docker_id: dkzb0235
     docker_key: "{{ lookup('env', 'DOCKER_KEY') }}"
     image_name: "{{ docker_id }}/goorm-myweb"
-    image_name: "{{ docker_id }}/goorm-myweb:{{ image_tag }}"
 
   tasks:
   - block:
